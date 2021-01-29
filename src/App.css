@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/**form styles**/
+.per_ioc{
+    font-size: 25px;
+    margin-top: 15px;
+    padding: -9px;
+    color: gray;
+}
+.text_field{
+  width: 400px;
+    margin-left: 15px !important;
+}
+.form_area{
+  width: 190px;
+    margin: 0 0 0 11px !important;
+}
+.text_phone{
+  width: 200px;
+    margin: 0 0 0 10px !important;
+}
+.form_view{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.field_view{
+  margin-left: 35px !important;
+}
+.menu_view{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.calander_date{
+  background: rgba(0, 0, 0, 0.09);
+  padding-left:7px !important;
+  margin-top:0px !important 
+
+}
+
+/*****/
+
+.sty_wel{
+  text-align: center;
+  font: normal normal bold 20px/30px Poppins;
+  letter-spacing: 0.92px;
+  color: #333333;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 150px;
+}
+.sty_sign{
+  text-align: center;
+  font: normal normal medium 13px/20px Poppins;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 0.5;
+}
+.input_st{
+  width: 300px;
+  height: 48px;
+  /* background: #000000 0% 0% no-repeat padding-box; */
+  border-radius: 5px;
+  opacity: 0.6;
+}
+.sty_log{
+  background: #0C80AE;
+  width: 10% !important;
+  height: 45px !important;
+  border: 0;
+  border-radius: 30px;
+  color: white;
+  font-size: 21px;
+}
+.div_st{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.forgot{
+  text-align: center;
+  font: normal normal medium 13px/20px Poppins;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  margin-top: 40px;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+.error_msg{
+  font-size: 13px;
+  text-transform: lowercase;
+  color: red;
+  margin: 1px;
+}
